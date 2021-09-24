@@ -154,8 +154,6 @@ blockID minecraft:pink_concrete
 7. finished
 
 ## Acknowledgements
-- [nbtpp](https://github.com/M4xi1m3/nbtpp) by [Maxime FRIESS](https://github.com/M4xi1m3) 
-    - used for parsing NBT data structure
 - [TriangleBoxIntersection](https://gist.github.com/Philipp-M/e5747bd5a4e264ab143824059d21c120) by [Philip-M](https://github.com/Philipp-M) and improved by [Jeroen Flipts](https://github.com/jflipts)
     - checks collision between Minecraft block and 3D-object mesh 
  - [user94729](https://git.omegazero.org/user94729) for advice
