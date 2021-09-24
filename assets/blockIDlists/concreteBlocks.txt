@@ -1,0 +1,15 @@
+concrete_black.png, minecraft:black_concrete
+concrete_blue.png, minecraft:blue_concrete
+concrete_brown.png, minecraft:brown_concrete
+concrete_cyan.png, minecraft:cyan_concrete
+concrete_gray.png, minecraft:gray_concrete
+concrete_green.png, minecraft:green_concrete
+concrete_light_blue.png, minecraft:light_blue_concrete
+concrete_lime.png, minecraft:lime_concrete
+concrete_magenta.png, minecraft:magenta_concrete
+concrete_orange.png, minecraft:orange_concrete
+concrete_pink.png, minecraft:pink_concrete
+concrete_red.png, minecraft:red_concrete
+concrete_purple.png, minecraft:purple_concrete
+concrete_white.png, minecraft:white_concrete
+concrete_yellow.png, minecraft:yellow_concrete
