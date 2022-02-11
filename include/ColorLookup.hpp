@@ -35,10 +35,10 @@ public:
 		uint64_t minDelta = UINT64_MAX;
 		size_t index = 0;
 		for (size_t i = 0; i < len; i++) {
-			uint64_t delta = static_cast<uint64_t>(std::abs(key.r - keys[i].r)) +
-				static_cast<uint64_t>(std::abs(key.g - keys[i].g)) +
-				static_cast<uint64_t>(std::abs(key.b - keys[i].b)) +
-				static_cast<uint64_t>(std::abs(key.a - keys[i].a));
+			uint64_t delta = static_cast<uint64_t>((key.r - keys[i].r) * (key.r - keys[i].r)) +
+				static_cast<uint64_t>((key.g - keys[i].g) * (key.g - keys[i].g)) +
+				static_cast<uint64_t>((key.b - keys[i].b) * (key.b - keys[i].b)) +
+				static_cast<uint64_t>((key.a - keys[i].a) * (key.a - keys[i].a));
 
 			if (delta < minDelta) {
 				minDelta = delta;
